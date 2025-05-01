@@ -1,2 +1,2 @@
 # Image-Stitching
-This project performs image stitching using OpenCV by detecting features, matching keypoints, estimating homography, and blending multiple overlapping images into a seamless panorama. It's ideal for creating wide-angle views in photography, drone imaging, and mapping applications.
+This project implements an image stitching pipeline to create seamless panoramic images by combining multiple overlapping photos. It uses OpenCV and computer vision techniques such as feature detection (ORB/SIFT), keypoint matching, homography estimation, image warping, and blending. The system efficiently aligns and merges images to produce a wide-angle view, making it useful for applications like panoramic photography, drone imaging, and mapping.
